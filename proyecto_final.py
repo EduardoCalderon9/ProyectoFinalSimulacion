@@ -1,12 +1,8 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
 import pandas as pd
 import random
-import matplotlib
 import math
-import matplotlib.pyplot as plt
 import itertools
 matplotlib.use('tkagg')
 
