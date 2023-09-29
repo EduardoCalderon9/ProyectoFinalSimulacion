@@ -7,6 +7,8 @@ import itertools
 
 st.set_page_config(layout="wide")
 st.title("Proyecto")
+
+st.write('Repositorio de Proyecto: https://github.com/EduardoCalderon9/ProyectoFinalSimulacion/')
 numero_parcelas = st.text_input("Cantidad de Parcelas")
 numero_vehiculos = st.text_input("Cantidad de Vehiculos")
 numero_trabajadores = st.text_input("Cantidad de Trabajadores")
