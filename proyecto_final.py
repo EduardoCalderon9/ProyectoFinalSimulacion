@@ -4,7 +4,6 @@ import pandas as pd
 import random
 import math
 import itertools
-matplotlib.use('tkagg')
 
 st.set_page_config(layout="wide")
 st.title("Proyecto")
