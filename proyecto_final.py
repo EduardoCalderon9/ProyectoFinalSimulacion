@@ -1,17 +1,18 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
 import pandas as pd
 import random
+import matplotlib
 import math
+import matplotlib.pyplot as plt
 import itertools
+matplotlib.use('tkagg')
 
 st.set_page_config(layout="wide")
 st.title("Proyecto")
-
-st.write('Repositorio de Proyecto: https://github.com/EduardoCalderon9/ProyectoFinalSimulacion/')
-
-st.write('Eduardo Calderon - 18002632')
-st.write('Jonathan Corado - 18001211')
+st.subheader("Eduardo Calderón - 18001632  Jonathan Corado - 18001211")
 numero_parcelas = st.text_input("Cantidad de Parcelas")
 numero_vehiculos = st.text_input("Cantidad de Vehiculos")
 numero_trabajadores = st.text_input("Cantidad de Trabajadores")
